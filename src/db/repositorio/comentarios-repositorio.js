@@ -5,4 +5,7 @@ export class ComentariosRepositorio {
         const comentario = new DbComentario(data);
         return await DbComentario.insertMany(comentario);
     }
+    async consultarComentarios() {
+        return await DbComentario.find({});
+    }
 }
