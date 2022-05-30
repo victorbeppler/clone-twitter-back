@@ -10,7 +10,7 @@ app.use(
     })
 );
 app.use(express.json());
-app.listen(3005, () => {
+app.listen(3006, () => {
     conectarMongo().then(async () => {
         console.log("Server is running on port 3005");
 

@@ -1,11 +1,13 @@
-import { DbComentario } from "../esquemas/esquema-comentarios.js";
+import { TweetModel } from "../../model/tweet-model.js";
+import { DbTweet } from "../esquemas/esquema-tweet.js";
 
 export class ComentariosRepositorio {
     async criarComentario(data) {
-        const comentario = new DbComentario(data);
-        return await DbComentario.insertMany(comentario);
+        const comentarioFormatado = new TweetModel(data);
+        const comentario = new DbTweet(comentarioFormatado);
+        return await DbTweet.insertMany(comentario);
     }
     async consultarComentarios() {
-        return await DbComentario.find({});
+        return await DbTweet.find({});
     }
 }

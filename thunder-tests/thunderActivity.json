@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "dd907a7e-42ee-4120-a56b-029be9267153",
+    "colId": "history",
+    "containerId": "",
+    "name": "Coments",
+    "url": "http://localhost:3005/api/twitter/Comments",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-30T17:17:03.823Z",
+    "modified": "2022-05-30T17:17:04.001Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "949f565a-ff5d-4628-b616-2a327ca5a1b8",
+    "colId": "history",
+    "containerId": "",
+    "name": "Create Comment",
+    "url": "http://localhost:3005/api/twitter/createComment",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-30T17:18:22.267Z",
+    "modified": "2022-05-30T17:31:30.849Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"imageURL\": \"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg\",\n    \"comentario\": \"Olha essa foto\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
