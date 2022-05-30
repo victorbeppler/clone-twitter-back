@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Victor Hugo Beppler Pereira",
+    "email": "victorhugobeppler@gmail.com"
+  },
+  "name": "clone-twitter-backend",
+  "version": "1.0.0",
+  "description": "Clone Twitter Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "node": "^17.7.2"
+  }
+}
