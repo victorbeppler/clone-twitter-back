@@ -1,11 +1,11 @@
 import express from "express";
-import { CriarComentario } from "../caso-de-uso/criar-comentario.js";
+import { criarTweet } from "../caso-de-uso/criar-comentario.js";
 
 const router = express.Router();
-const routeName = "createComment";
+const routeName = "createTweet";
 
 const middleware = (req, res, next) => {
-    const requieredFields = ["imageURL", "comentario"];
+    const requieredFields = ["imageURL", "descricaoTweet"];
     const missingField = requieredFields.filter((field) => !(field in req.body));
     if (missingField.length) {
         res.status(400).json({
@@ -27,7 +27,7 @@ const middleware = (req, res, next) => {
 
 router.post(`/${routeName}`, middleware, async (req, res) => {
     const request = req.body;
-    const comentarioCriado = await new CriarComentario().executar(request);
+    const comentarioCriado = await new criarTweet().executar(request);
 
     res.status(201).send("Comentário Criado");
 });

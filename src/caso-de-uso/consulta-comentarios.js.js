@@ -1,7 +1,7 @@
-import { ComentariosRepositorio } from "../db/repositorio/comentarios-repositorio.js";
+import { TweetRepositorio } from "../db/repositorio/tweet-repositorio.js";
 
 export class ConsultaComentarios {
     async executar() {
-        return await new ComentariosRepositorio().consultarComentarios();
+        return await new TweetRepositorio().consultarTweet();
     }
 }

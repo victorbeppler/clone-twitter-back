@@ -1,8 +1,8 @@
-import { ComentariosRepositorio } from "../db/repositorio/comentarios-repositorio.js";
+import { TweetRepositorio } from "../db/repositorio/tweet-repositorio.js";
 
-export class CriarComentario {
+export class criarTweet {
     async executar(data) {
-        const comentarioCriado = await new ComentariosRepositorio().criarComentario(data);
+        const comentarioCriado = await new TweetRepositorio().criarTweet(data);
         return comentarioCriado;
     }
 }

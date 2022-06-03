@@ -1,13 +1,13 @@
 import express from "express";
-import { ConsultaComentarios } from "../caso-de-uso/consulta-comentarios.js.js";
+import { AdicionarLike } from "../caso-de-uso/adicionar-like.js";
 
 const router = express.Router();
 const routeName = "AddLike";
 
-router.get(`/${routeName}`, async (req, res) => {
-    const comentario = await new ConsultaComentarios().executar();
-    
-    res.status(200).json(comentario);
+router.post(`/${routeName}`, async (req, res) => {
+    const data = req.body;
+    const adicionadoLike = await new AdicionarLike().executar(data);
+    res.status(200);
 });
 
 export default router;

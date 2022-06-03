@@ -2,8 +2,11 @@ import mongoose from "mongoose";
 
 const esquemaTweet = new mongoose.Schema({
     imageURL: String,
-    comentario: String,
+    descricaoTweet: String,
     likes: Number,
+    date: String,
+    comentarios: Object,
+    retweets: Number,
 });
 
 export const DbTweet = mongoose.model("tweet", esquemaTweet);

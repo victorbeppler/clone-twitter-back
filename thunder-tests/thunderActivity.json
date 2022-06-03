@@ -31,5 +31,19 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "4bb82c0f-f183-4973-ba12-e8a742834929",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3006/api/twitter/AddLike",
+    "url": "http://localhost:3006/api/twitter/AddLike",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-03T19:45:54.241Z",
+    "modified": "2022-06-03T19:45:54.309Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
