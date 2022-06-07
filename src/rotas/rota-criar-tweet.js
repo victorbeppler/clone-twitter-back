@@ -1,5 +1,5 @@
 import express from "express";
-import { Tweet } from "../caso-de-uso/comentarios.js";
+import { Tweet } from "../caso-de-uso/tweet.js";
 
 const router = express.Router();
 const routeName = "createTweet";

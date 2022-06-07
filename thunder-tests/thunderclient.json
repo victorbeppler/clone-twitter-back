@@ -22,12 +22,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-30T17:42:03.630Z",
-    "modified": "2022-06-03T18:11:04.296Z",
+    "modified": "2022-06-07T01:15:04.771Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"imageURL\": \"https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=\",\n    \"descricaoTweet\": \"Novo tweet 2.0\",\n    \"likes\": 2,\n    \"date\": \"03/06/2022\",\n    \"retweets\": 6\n}",
+      "raw": "{\n    \"imageURL\": \"https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=\",\n    \"descricaoTweet\": \"Novo tweet 2.0\",\n    \"likes\": 2,\n    \"date\": \"03/06/2022\",\n    \"retweets\": 6,\n    \"comment\": 5\n}",
       "form": []
     },
     "tests": []
@@ -36,38 +36,28 @@
     "_id": "da631704-81e2-40d6-bfb6-101542448ac7",
     "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
     "containerId": "",
-    "name": "AddLike",
-    "url": "http://localhost:3006/api/twitter/likeTweet",
-    "method": "POST",
+    "name": "Favorite REMOVE",
+    "url": "http://localhost:3006/api/twitter/tweet/629a4e92c77efa21019c920a/favorite",
+    "method": "DELETE",
     "sortNum": 30000,
     "created": "2022-06-03T19:50:06.929Z",
-    "modified": "2022-06-03T20:27:47.670Z",
+    "modified": "2022-06-07T02:12:50.410Z",
     "headers": [],
     "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
-      "form": []
-    },
     "tests": []
   },
   {
     "_id": "e326eb5a-14e8-4dd3-a571-1af5a4cc0d1c",
     "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
     "containerId": "",
-    "name": "Remove Like",
-    "url": "http://localhost:3006/api/twitter/removeLikeTweet",
+    "name": "Favorite ADD",
+    "url": "http://localhost:3006/api/twitter/tweet/629a4e92c77efa21019c920a/favorite",
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-06-06T20:51:21.301Z",
-    "modified": "2022-06-06T20:51:21.301Z",
+    "modified": "2022-06-07T02:13:58.343Z",
     "headers": [],
     "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
-      "form": []
-    },
     "tests": []
   },
   {
@@ -75,11 +65,11 @@
     "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
     "containerId": "",
     "name": "Retweetar",
-    "url": "http://localhost:3006/api/twitter/retweetar",
+    "url": "http://localhost:3006/api/twitter/tweet/629a4e92c77efa21019c920a/retweets",
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-06-06T20:57:50.106Z",
-    "modified": "2022-06-06T20:57:50.106Z",
+    "modified": "2022-06-07T01:49:11.485Z",
     "headers": [],
     "params": [],
     "body": {

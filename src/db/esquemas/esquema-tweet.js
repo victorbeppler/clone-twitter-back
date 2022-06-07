@@ -7,6 +7,7 @@ const esquemaTweet = new mongoose.Schema({
     date: String,
     comentarios: Object,
     retweets: Number,
+    comments: Number,
 });
 
 export const DbTweet = mongoose.model("tweet", esquemaTweet);

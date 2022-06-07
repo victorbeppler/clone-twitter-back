@@ -6,5 +6,6 @@ export class TweetModel {
         this.date = data.date;
         this.comentarios = data.comentarios || [];
         this.retweets = data.retweets || 0;
+        this.comments = data.comments || 0;
     }
 }
