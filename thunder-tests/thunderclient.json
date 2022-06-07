@@ -31,5 +31,81 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "da631704-81e2-40d6-bfb6-101542448ac7",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "AddLike",
+    "url": "http://localhost:3006/api/twitter/likeTweet",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-06-03T19:50:06.929Z",
+    "modified": "2022-06-03T20:27:47.670Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e326eb5a-14e8-4dd3-a571-1af5a4cc0d1c",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Remove Like",
+    "url": "http://localhost:3006/api/twitter/removeLikeTweet",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-06-06T20:51:21.301Z",
+    "modified": "2022-06-06T20:51:21.301Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3862d6a5-837d-4a98-ae20-12ddfafaeac0",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Retweetar",
+    "url": "http://localhost:3006/api/twitter/retweetar",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-06-06T20:57:50.106Z",
+    "modified": "2022-06-06T20:57:50.106Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d8deee7d-78e3-4c5e-9a60-c5fecfb5ccf8",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Remove Retweet",
+    "url": "http://localhost:3006/api/twitter/removeRetweet",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-06-07T00:41:50.161Z",
+    "modified": "2022-06-07T00:41:50.161Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

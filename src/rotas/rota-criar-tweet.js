@@ -1,5 +1,5 @@
 import express from "express";
-import { criarTweet } from "../caso-de-uso/criar-comentario.js";
+import { Tweet } from "../caso-de-uso/comentarios.js";
 
 const router = express.Router();
 const routeName = "createTweet";
@@ -27,8 +27,7 @@ const middleware = (req, res, next) => {
 
 router.post(`/${routeName}`, middleware, async (req, res) => {
     const request = req.body;
-    const comentarioCriado = await new criarTweet().executar(request);
-
+    const comentarioCriado = await new Tweet().criar();
     res.status(201).send("Comentário Criado");
 });
 

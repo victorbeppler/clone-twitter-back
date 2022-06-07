@@ -3,12 +3,12 @@
     "_id": "dd907a7e-42ee-4120-a56b-029be9267153",
     "colId": "history",
     "containerId": "",
-    "name": "Coments",
-    "url": "http://localhost:3005/api/twitter/Comments",
+    "name": "Tweet",
+    "url": "http://localhost:3006/api/twitter/tweet",
     "method": "GET",
     "sortNum": 0,
     "created": "2022-05-30T17:17:03.823Z",
-    "modified": "2022-05-30T17:17:04.001Z",
+    "modified": "2022-06-06T23:02:22.791Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -36,14 +36,90 @@
     "_id": "4bb82c0f-f183-4973-ba12-e8a742834929",
     "colId": "history",
     "containerId": "",
-    "name": "http://localhost:3006/api/twitter/AddLike",
+    "name": "AddLike",
     "url": "http://localhost:3006/api/twitter/AddLike",
     "method": "POST",
     "sortNum": 0,
     "created": "2022-06-03T19:45:54.241Z",
-    "modified": "2022-06-03T19:45:54.309Z",
+    "modified": "2022-06-03T19:49:36.963Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "760cd8df-d8b4-4dd5-a7b1-e1573ec4d662",
+    "colId": "history",
+    "containerId": "",
+    "name": "Remove Like",
+    "url": "http://localhost:3006/api/twitter/removeLikeTweet",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-04T21:54:18.887Z",
+    "modified": "2022-06-04T21:54:28.490Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0bc9cc78-764c-4d4a-bf7f-19a79943a364",
+    "colId": "history",
+    "containerId": "",
+    "name": "Retweetar",
+    "url": "http://localhost:3006/api/twitter/retweetar",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-06T20:52:17.258Z",
+    "modified": "2022-06-06T20:59:58.373Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e4780078-15d5-4fe9-80f6-d4942fa79a7b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3006/api/twitter/removeRetweet",
+    "url": "http://localhost:3006/api/twitter/removeRetweet",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-06-07T00:31:22.850Z",
+    "modified": "2022-06-07T00:31:22.865Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a4a7819c-4e4a-48ae-ae09-313877d5a8db",
+    "colId": "history",
+    "containerId": "",
+    "name": "Remove Retweet",
+    "url": "http://localhost:3006/api/twitter/removeRetweet",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-07T00:31:27.156Z",
+    "modified": "2022-06-07T00:41:10.389Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"idTweet\": \"629a4e92c77efa21019c920a\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
