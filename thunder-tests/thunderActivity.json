@@ -121,5 +121,47 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "f80b5e63-b9f1-4cc9-9afb-246ada0b2861",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3006/api/twitter/tweets/629a4e92c77efa21019c920a/comment",
+    "url": "http://localhost:3006/api/twitter/tweets/629a4e92c77efa21019c920a/comment",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-07T20:09:14.234Z",
+    "modified": "2022-06-07T20:09:14.311Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "95a4a38c-a9b7-49f7-bc6f-1e32cfabb44e",
+    "colId": "history",
+    "containerId": "",
+    "name": "Comment Add",
+    "url": "http://localhost:3006/api/twitter/tweets/629ebd3a31ad69aaabb577ae/comment",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-07T20:10:11.626Z",
+    "modified": "2022-06-07T20:19:00.762Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6d45fca3-8d84-4bf1-be50-0866485d7165",
+    "colId": "history",
+    "containerId": "",
+    "name": "Comment REMOVE",
+    "url": "http://localhost:3006/api/twitter/tweets/629ebd3a31ad69aaabb577ae/comment",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-06-07T20:19:40.647Z",
+    "modified": "2022-06-07T20:19:40.727Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

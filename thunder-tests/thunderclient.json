@@ -22,12 +22,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-30T17:42:03.630Z",
-    "modified": "2022-06-07T02:50:34.267Z",
+    "modified": "2022-06-07T20:23:38.187Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"imageURL\": \"https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=\",\n    \"descricaoTweet\": \"Novo tweet 2.0\",\n    \"likes\": 2,\n    \"date\": \"03/06/2022\",\n    \"retweets\": 6,\n    \"comment\": 5\n}",
+      "raw": "{\n    \"imageURL\": \"https://media.istockphoto.com/photos/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-picture-id1093110112?k=20&m=1093110112&s=612x612&w=0&h=3OhKOpvzOSJgwThQmGhshfOnZTvMExZX2R91jNNStBY=\",\n    \"descricaoTweet\": \"Novo tweet 5.0\",\n    \"likes\": 37,\n    \"date\": \"03/06/2022\",\n    \"retweets\": 6,\n    \"comment\": 5\n}",
       "form": []
     },
     "tests": []
@@ -84,6 +84,34 @@
     "sortNum": 60000,
     "created": "2022-06-07T00:41:50.161Z",
     "modified": "2022-06-07T02:17:56.614Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "93b211ee-71d8-4025-a726-83de53e74c82",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Comment ADD",
+    "url": "http://localhost:3006/api/twitter/tweets/629ebd3a31ad69aaabb577ae/comment",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2022-06-07T20:19:25.902Z",
+    "modified": "2022-06-07T20:19:25.902Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "06501d27-9e8f-48f8-b938-400b83b1e8bf",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Comment REMOVE",
+    "url": "http://localhost:3006/api/twitter/tweets/629ebd3a31ad69aaabb577ae/comment",
+    "method": "DELETE",
+    "sortNum": 80000,
+    "created": "2022-06-07T20:19:54.848Z",
+    "modified": "2022-06-07T20:19:54.848Z",
     "headers": [],
     "params": [],
     "tests": []
