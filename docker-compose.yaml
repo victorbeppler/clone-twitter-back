@@ -1,0 +1,9 @@
+version: '1.0'
+
+services:
+  api:
+    build: .
+    image: twitter-api
+    docker-image: twitter-api
+    ports:
+      - "3006:3006"
