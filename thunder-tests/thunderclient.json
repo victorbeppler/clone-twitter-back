@@ -115,5 +115,76 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "65c5803d-6bbc-4d91-92db-15c4de5139ae",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Add Follow Suggestion",
+    "url": "http://localhost:3006/api/twitter/FollowSuggestion",
+    "method": "POST",
+    "sortNum": 90000,
+    "created": "2022-06-30T00:03:01.101Z",
+    "modified": "2022-06-30T01:47:22.167Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"imageURL\": \"https://pps.whatsapp.net/v/t61.24694-24/167131401_463684585131014_7151050453866434990_n.jpg?ccb=11-4&oh=01_AVwrEgyK0-1YDZLGio6BULHdTie6A0YLma89B8dQ4SzRSA&oe=62CDFDE9\",\n    \"nickname\": \"@gabrielsantini\",\n    \"name\": \"Gabriel Santini\",\n    \"status\": false\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5c19c280-534c-44a2-8b44-4539cde61b5e",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Consult Follow Suggestion",
+    "url": "http://localhost:3006/api/twitter/FollowSuggestion",
+    "method": "GET",
+    "sortNum": 100000,
+    "created": "2022-06-30T00:38:33.130Z",
+    "modified": "2022-06-30T00:38:33.130Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b2049836-f36f-4f01-b3b5-fcdc8d7bfa83",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Follow Suggestion",
+    "url": "http://localhost:3006/api/twitter/FollowSuggestion",
+    "method": "PUT",
+    "sortNum": 110000,
+    "created": "2022-06-30T01:41:04.695Z",
+    "modified": "2022-06-30T01:43:20.004Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"id\": \"62bce8ded5f9d9ec5222f3e9\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "60b091ee-8786-456e-9026-d3ea1613e05b",
+    "colId": "404a8558-e372-4ada-8c75-58b5283c40fe",
+    "containerId": "",
+    "name": "Un Follow Suggestion",
+    "url": "http://localhost:3006/api/twitter/FollowSuggestion",
+    "method": "DELETE",
+    "sortNum": 120000,
+    "created": "2022-06-30T01:53:57.171Z",
+    "modified": "2022-06-30T01:54:18.195Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"id\": \"62bce8ded5f9d9ec5222f3e9\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

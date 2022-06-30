@@ -1,6 +1,6 @@
-import { config } from "dotenv";
+
 import mongoose from "mongoose";
-config();
+
 
 export async function conectarMongo() {
     await mongoose.connect(

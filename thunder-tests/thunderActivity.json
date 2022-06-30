@@ -163,5 +163,38 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "fb8b6021-59de-4712-8ec4-288d301a14f9",
+    "colId": "history",
+    "containerId": "",
+    "name": "Add Follow Suggestion",
+    "url": "http://localhost:3006/api/twitter/FollowSuggestion",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-30T00:02:40.954Z",
+    "modified": "2022-06-30T00:11:56.843Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"imageURL\": \"https://media-exp1.licdn.com/dms/image/C4E03AQHz12TGgomaxA/profile-displayphoto-shrink_100_100/0/1654554894636?e=1661990400&v=beta&t=alBnReI2xDzgA3KhnJpFTQecUtrQUD_O4HlEDH2AntI\",\n    \"nickname\": \"@anapaulapetter\",\n    \"name\": \"Ana Paula Petter\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "416737b0-3419-4761-8cbf-70bcc5aec976",
+    "colId": "history",
+    "containerId": "",
+    "name": "Consult Follow Suggestion",
+    "url": "http://localhost:3006/api/twitter/FollowSuggestion",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-06-30T00:02:40.954Z",
+    "modified": "2022-06-30T00:32:19.951Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
